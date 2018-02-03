@@ -1,0 +1,14 @@
+{
+	"name": "AuditLog",
+	"description": "Log Changes in Nodes and Nodeattachments",
+
+	"author": "Ale Vilar",
+	"authorEmail": "alevilar@gmail.com",
+	"authorUrl": "http://alevilar.com.ar",
+
+	"dependencies": {
+		"plugins": [
+			"nodes"
+		]
+	}
+}
