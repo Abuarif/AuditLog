@@ -18,7 +18,7 @@ class AuditableBehavior extends ModelBehavior {
   private static $_request_id = null;
   private function request_id() {
     if (empty(self::$_request_id)) {
-      self::$_request_id = String::uuid();
+      self::$_request_id = CakeText::uuid();
     }
 
     return self::$_request_id;
